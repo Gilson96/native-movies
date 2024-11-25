@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+# Native-foods
+>This Android app is built with react-native which allows the user to see information about their favourite movie.  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Technologies Used
+- React
+- React-native
+- Redux-toolkit
+- Tailwindcss(nativewind)
+- Nodejs
+- MongoDB
+- Mongoose
+- Git
+- 
+## Screenshots
+![Example screenshot](https://github.com/Gilson96/native-movies/blob/master/assets/images/Home.png)
+![Example screenshot](https://github.com/Gilson96/native-movies/blob/master/assets/images/Home2.png)
+![Example screenshot](https://github.com/Gilson96/native-movies/blob/master/assets/images/Movie2.png)
+![Example screenshot](https://github.com/Gilson96/native-movies/blob/master/assets/images/Movie.png)
+![Example screenshot](https://github.com/Gilson96/native-movies/blob/master/assets/images/Search.png)
+![Example screenshot](https://github.com/Gilson96/native-movies/blob/master/assets/images/Categores2.png)
+![Example screenshot](https://github.com/Gilson96/native-movies/blob/master/assets/images/Categories.png)
 
-## Get started
+## Setup
+1. Create a local directory on your machine
+2. Run the following code in your command line to navigate into that directory: 
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```shell 
+$ cd ~/your-directory-name-here
 ```
+3. Copy the SSH key from this GitHub repository `git@github.com:Gilson96/native-movies.git`
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+4. Run the following code in your command line to clone the repo to your machine (you can change the app-name to what you desire):  
 
-## Learn more
+```shell 
+git clone git@github.com:deanssmart/the-gallery.git <app-name>
+```
+5. Navigate to your new app directory (the app name you just picked):
 
-To learn more about developing your project with Expo, look at the following resources:
+```shell 
+$ cd app-name
+```
+6. Install the dependencies:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```shell 
+npm i
+```
+7. Run the following command and scan the provided QR code to launch the app in your smartphone  
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```shell 
+npx expo start
+```
+8. Enjoy
