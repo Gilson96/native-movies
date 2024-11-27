@@ -1,4 +1,4 @@
-# Native-foods
+# Native-movies
 >This Android app is built with react-native which allows the user to see information about their favourite movie.  
 
 ## Technologies Used
